@@ -11,7 +11,19 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 
 ### 0、直接写文字的水印（文字水印）
 
-    简介：基于OpenCV的内置函数：putText()的显式数字图像水印
+简介：基于OpenCV的内置函数：putText()的显式数字图像水印
+
+原图与水印照片对比：
+
+原始图像：
+
+![Alt text](/Digital-Image-Watermark/001_Direct_Text_Watermark/image/wallhaven-21738.jpg "原始图像")
+
+水印图像：
+
+![Alt text](/Digital-Image-Watermark/001_Direct_Text_Watermark/image/wallhaven-21738-watermark.jpg "水印图像")
+
+    
     
 ### 1、基于Alpha Mix的显示水印添加（图片水印——彩色图像）
 
@@ -31,7 +43,7 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 
 ### 5、基于DCT的数字图像水印（图片水印——二值图像）
 
-    简介：生成添加水印后的图片效果好，抗几何攻击效果差（旋转，翻转，缩放，裁剪）
+   简介：生成添加水印后的图片效果好，抗几何攻击效果差（旋转，翻转，缩放，裁剪）
 
 #### 5.1、全局DCT数字图像水印
 
