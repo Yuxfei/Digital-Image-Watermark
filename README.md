@@ -37,7 +37,11 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 
 水印图像：
 
-![Alt text](/Digital-Image-Watermark/002_Alpha_Mix_Image_Watermark/image/wallhaven-205542-watermark.jpg "水印图像")
+![Alt text](/Digital-Image-Watermark/002_Alpha_Mix_Image_Watermark/image/One_Piece_72_pix.png "水印图像")
+
+结果图像：
+
+![Alt text](/Digital-Image-Watermark/002_Alpha_Mix_Image_Watermark/image/wallhaven-205542-watermark.jpg "结果图像")
     
 ### 2、基于泊松融合的显示数字图像水印（图片水印——彩色图像）
 
