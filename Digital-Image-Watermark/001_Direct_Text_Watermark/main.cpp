@@ -19,7 +19,7 @@ int main()
 		cv::FONT_HERSHEY_PLAIN, textSize, cv::Scalar(colorNum, colorNum, colorNum), textWidth);
 
 	imshow("ˮӡͼ��", img);
-	imwrite("ˮӡͼ��.jpg", img);
+	imwrite("./image/wallhaven-21738-watermark.jpg", img);
 
 	waitKey(0);
 	return 0;
