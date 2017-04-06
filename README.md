@@ -1,6 +1,14 @@
 # Digital-Image-Watermark
 Serveral digital image watermark algorithms implement with C++/OpenCV
 
+## 一、项目简介
+
+### 1、开发语言：C++
+### 2、开发工具：Visual Studio 2013
+### 3、第三方库：OpenCV（Version:3.2）
+
+## 二、项目模块
+
 ### 0、直接写文字的水印（文字水印）
 
     简介：基于OpenCV的内置函数：putText()的显式数字图像水印
