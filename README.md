@@ -28,6 +28,16 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 ### 1、基于Alpha Mix的显示水印添加（图片水印——彩色图像）
 
     简介：基于图像Alpha混合的显式数字图像水印
+
+原图与水印照片对比：
+
+原始图像：
+
+![Alt text](/Digital-Image-Watermark/002_Alpha_Mix_Image_Watermark/image/wallhaven-205542.jpg "原始图像")
+
+水印图像：
+
+![Alt text](/Digital-Image-Watermark/002_Alpha_Mix_Image_Watermark/image/wallhaven-205542-watermark.jpg "水印图像")
     
 ### 2、基于泊松融合的显示数字图像水印（图片水印——彩色图像）
 

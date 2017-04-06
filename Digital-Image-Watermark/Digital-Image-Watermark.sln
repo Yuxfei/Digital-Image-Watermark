@@ -5,20 +5,28 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001_Direct_Text_Watermark", "001_Direct_Text_Watermark\001_Direct_Text_Watermark.vcxproj", "{41E326F8-5010-4D38-B64B-600A677385B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002_Alpha_Mix_Image_Watermark", "002_Alpha_Mix_Image_Watermark\002_Alpha_Mix_Image_Watermark.vcxproj", "{5E361D76-671F-44CB-8277-8FDBAF96D57D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
+		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
-		Release|Win32 = Release|Win32
+		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{41E326F8-5010-4D38-B64B-600A677385B1}.Debug|Win32.ActiveCfg = Debug|x64
+		{41E326F8-5010-4D38-B64B-600A677385B1}.Debug|ARM.ActiveCfg = Debug|x64
 		{41E326F8-5010-4D38-B64B-600A677385B1}.Debug|x64.ActiveCfg = Debug|x64
 		{41E326F8-5010-4D38-B64B-600A677385B1}.Debug|x64.Build.0 = Debug|x64
-		{41E326F8-5010-4D38-B64B-600A677385B1}.Release|Win32.ActiveCfg = Release|x64
+		{41E326F8-5010-4D38-B64B-600A677385B1}.Release|ARM.ActiveCfg = Release|x64
 		{41E326F8-5010-4D38-B64B-600A677385B1}.Release|x64.ActiveCfg = Release|x64
 		{41E326F8-5010-4D38-B64B-600A677385B1}.Release|x64.Build.0 = Release|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Debug|ARM.ActiveCfg = Debug|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Debug|x64.ActiveCfg = Debug|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Debug|x64.Build.0 = Debug|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Release|ARM.ActiveCfg = Release|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Release|x64.ActiveCfg = Release|x64
+		{5E361D76-671F-44CB-8277-8FDBAF96D57D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
