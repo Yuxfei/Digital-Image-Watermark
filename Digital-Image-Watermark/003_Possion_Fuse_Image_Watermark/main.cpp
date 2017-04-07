@@ -1,0 +1,27 @@
+#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <string>
+
+using namespace std;
+using namespace cv;
+
+int main()
+{
+	Mat img = imread("./image/wallhaven-4895.jpg");
+	imshow("Ô­Ê¼Í¼Ïñ", img);
+
+	Mat logo = imread("./image/timg.jpg");
+	imshow("Ë®Ó¡Í¼Ïñ", logo);
+
+	Mat mask = imread("./image/mask.jpg",0);
+	imshow("ÑÚÄ£Í¼Ïñ", mask);
+
+	Mat result;
+	Point center(100, 450);
+	seamlessClone(logo, img, mask, center, result, NORMAL_CLONE);
+	imshow("½á¹ûÍ¼Ïñ", result);
+	imwrite("./image/wallhaven-4895-watermark.jpg", result);
+
+	waitKey(0);
+	return 0;
+}
