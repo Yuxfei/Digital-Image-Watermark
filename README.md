@@ -46,6 +46,24 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 ### 2、基于泊松融合的显示数字图像水印（图片水印——彩色图像）
 
     简介：混合梯度算法——基于梯度域图像融合的显式数字图像水印
+
+原图与水印照片对比：
+
+原始图像：
+
+![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/wallhaven-4895.jpg "原始图像")
+
+水印图像：
+
+![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/timg.jpg "水印图像")
+
+掩模图像：
+
+![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/mask.jpg "掩模图像")
+
+结果图像：
+
+![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/wallhaven-4895-watermark.jpg "结果图像")
     
 ### 3、基于LSB的图像水印添加（图片水印——彩色图像）
     
