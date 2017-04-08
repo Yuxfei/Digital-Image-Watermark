@@ -55,7 +55,7 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 
 水印图像：
 
-![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/timg.jpg "水印图像")
+![Alt text](/Digital-Image-Watermark/003_Possion_Fuse_Image_Watermark/image/watermark.jpg "水印图像")
 
 掩模图像：
 
