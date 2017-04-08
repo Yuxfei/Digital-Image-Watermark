@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003_Possion_Fuse_Image_Wate
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004_LSB_Image_Watermark", "004_LSB_Image_Watermark\004_LSB_Image_Watermark.vcxproj", "{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "005_FFT_Text_Watermark", "005_FFT_Text_Watermark\005_FFT_Text_Watermark.vcxproj", "{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,10 +35,14 @@ Global
 		{C24770E2-6890-490F-82D5-FCC781DFB99E}.Release|x64.ActiveCfg = Release|x64
 		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Debug|Win32.ActiveCfg = Debug|x64
 		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Debug|x64.ActiveCfg = Debug|x64
-		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Debug|x64.Build.0 = Debug|x64
 		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Release|Win32.ActiveCfg = Release|x64
 		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Release|x64.ActiveCfg = Release|x64
-		{F3AF0E84-763E-4949-9D1B-8004F5EED4FF}.Release|x64.Build.0 = Release|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Debug|Win32.ActiveCfg = Debug|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Debug|x64.ActiveCfg = Debug|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Debug|x64.Build.0 = Debug|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Release|Win32.ActiveCfg = Release|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Release|x64.ActiveCfg = Release|x64
+		{B1388D5A-C56E-4E8F-A6C6-5D3FF6306252}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

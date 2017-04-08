@@ -98,6 +98,31 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
 
     简介：生成添加水印后的图片效果好，但是算法抗JPEG压缩效果差，导致水印提取不理想，使用BMP格式效果好（图片质量太好，存储空间太大）
 
+原始图像：
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/wallhaven-137628.jpg "原始图像")
+
+原图像傅里叶分解：
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/imgOriFly.jpg "原图像傅里叶分解")
+
+结果图像一（以BMP格式存储结果图像）：
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/resultsave-2.bmp "结果图像一")
+
+结果图像一傅里叶分解（效果好）：
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/testImgFly2.bmp "结果图像一傅里叶分解")
+
+结果图像二（以JPG格式存储结果图像）：
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/resultsave-1.jpg "结果图像二")
+
+结果图像二傅里叶分解：水印图像被轻度破坏（JPEG压缩导致）
+
+![Alt text](/Digital-Image-Watermark/005_FFT_Text_Watermark/image/testImgFly1.jpg "结果图像二傅里叶分解")
+
+
 ### 5、基于DCT的数字图像水印（图片水印——二值图像）
 
    简介：生成添加水印后的图片效果好，抗几何攻击效果差（旋转，翻转，缩放，裁剪）
