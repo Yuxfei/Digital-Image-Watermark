@@ -67,7 +67,32 @@ Serveral digital image watermark algorithms implement with C++/OpenCV
     
 ### 3、基于LSB的图像水印添加（图片水印——彩色图像）
     
-    简介：水印信息存储在最低有效位，生成添加水印后的图像效果不好
+    简介：水印信息存储在最低有效位，生成添加水印后的图像效果不好（会观察到水印图像的残影），并且该方法对JPEG压缩具有较差的鲁棒性，下面将通过实验验证。
+
+原始图像：
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/lena.png "原始图像")
+
+水印图像：
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/baboon.png "水印图像")
+
+结果图像一（以BMP格式存储结果图像）：
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/result1.bmp "结果图像一")
+
+结果图像一提取水印：
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/test1.bmp "结果图像一")
+
+结果图像二（以JPG格式存储结果图像）：
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/result2.jpg "结果图像二")
+
+结果图像二提取水印：水印图像已经被严重破坏（JPEG压缩导致）
+
+![Alt text](/Digital-Image-Watermark/004_LSB_Image_Watermark/image/test2.jpg "结果图像二")
+
 
 ### 4、基于FFT的数字图像水印算法（文字水印）
 
