@@ -8,17 +8,17 @@ using namespace cv;
 int main()
 {
 	Mat img = imread("./image/wallhaven-21738.jpg");
-	imshow("原始图像", img);
+	imshow("鍘熷鍥惧儚", img);
 
-	string text = "Yuxfei!"; // 水印文字
-	double textSize = 3.0; // 文字大小
-	int colorNum = 128; // 文字颜色
-	int textWidth = 3; // 文字宽度
+	string text = "Yuxfei!";  // 姘村嵃鏂囧瓧
+	double textSize = 3.0;    // 鏂囧瓧澶у皬
+	int colorNum = 128;       // 鏂囧瓧棰滆壊
+	int textWidth = 3;        // 鏂囧瓧瀹藉害
 
 	putText(img, text, cv::Point(img.cols * 0.1111, img.rows * 0.8888),
 		cv::FONT_HERSHEY_PLAIN, textSize, cv::Scalar(colorNum, colorNum, colorNum), textWidth);
 
-	imshow("水印图像", img);
+	imshow("姘村嵃鍥惧儚", img);
 	imwrite("./image/wallhaven-21738-watermark.jpg", img);
 
 	waitKey(0);
